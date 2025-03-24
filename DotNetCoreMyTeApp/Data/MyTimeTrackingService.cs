@@ -1,6 +1,6 @@
 namespace DotNetCoreMyTeApp.Data
 {
-    public class MyTeService
+    public class MyTimeTrackingService
     {
         public Task<MyTimeTracking> GetMyTeDataByUserForInput(string aUser)
         {

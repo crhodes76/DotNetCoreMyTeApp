@@ -7,11 +7,94 @@
 
 <h1>MY Time Tracking</h1>
 
+<div class="container mt-5">
+    <form>
+        <div class="mb-3">
+            <label for="exampleInputText" class="form-label">Name</label>
+            <p>@userDefaultTeEntry?.Name</p>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputText" class="form-label">Email Address</label>
+            <p>@userDefaultTeEntry?.Email</p>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputText" class="form-label">Hours</label>
+            <input type="text" @bind="Hours" class="form-control" id="userHours" placeholder="Enter your Hours worked" />
+        </div>
+        <div class="mb-3">
+            <label>Work Types</label>
+        </div>
+        <div class="mb-3">
+            @if (userDefaultTeEntry?.WorkTypes != null && userDefaultTeEntry?.WorkTypes.Count > 0)
+            {
+                <select class="form-select" @bind="UserWorkType">
+                    @foreach (var workType in userDefaultTeEntry.WorkTypes)
+                    {
+                        <option value="@workType">@workType</option>
+                    }
+                </select>
+            }
+        </div>
+        <div class="mb-3">
+            <label>Project Codes</label>
+        </div>
+        <div class="mb-3">
+            @if (userDefaultTeEntry?.ProjectCodes != null && userDefaultTeEntry?.ProjectCodes.Count > 0)
+            {
+                <select class="form-select" @bind="UserProjectCode">
+                    @foreach (var projectCode in userDefaultTeEntry.ProjectCodes)
+                    {
+                        <option value="@projectCode">@projectCode</option>
+                    }
+                </select>
+            }
+        </div>
+        <div class="mb-3">
+            <label>Description</label>
+        </div>
+        <div class="mb-3">
+            @if (userDefaultTeEntry?.Descriptions != null && userDefaultTeEntry?.Descriptions.Count > 0)
+            {
+                <select class="form-select" @bind="UserDescription">
+                    @foreach (var description in userDefaultTeEntry.Descriptions)
+                    {
+                        <option value="@description">@description</option>
+                    }
+                </select>
+            }
+        </div>
+    </form>
+</div>
+<div class="container mt-3">
+    <button type="submit" class="btn btn-primary">Submit</button> 
+</div>
+
 @code{
     private MyTeModel? userDefaultTeEntry;
+    private MyTeModel? userEnteredData;
+    private string? UserName {get; set;}
+    private string? Email {get; set;}
+    private string? UserWorkType {get; set;}
+    private string? UserDescription {get; set;}
+    private string? UserProjectCode { get; set;}
+    private decimal? Hours {get; set;}
+    private DateTime? Date { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
         userDefaultTeEntry = await myTeService.GetMyTeDataByUserForInput("aUser");
+    }
+
+    protected void SaveUserMyTimeData()
+    {
+        MyTeModel userInput = new MyTeModel(){
+            Name = UserName,
+            Email = Email,
+            UserWorkType = UserWorkType,
+            UserDescription = UserDescription,//WorkType = new List<string>(){UserWorkType},
+            Hours = Hours,
+            UserProjectCode = UserProjectCode,
+            Date = Date
+        };
     }
 }

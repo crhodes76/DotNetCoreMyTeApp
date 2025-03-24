@@ -10,7 +10,7 @@ namespace DotNetCoreMyTeApp.Data
                 Name = "Charles",
                 Email = "Charles.Smith.Fake@gmail.com",
                 Team = "Development",
-                WorkType = new List<string> { "Maintenance", "Capcity" },
+                WorkTypes = new List<string> { "Maintenance", "Capcity" },
                 ProjectCodes = new List<string> { "Project1", "Project2", "Project3", "Project4" },
                 Descriptions = new List<string> { "Coding", "Testing", "Deploying" }
             };

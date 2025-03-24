@@ -1,0 +1,32 @@
+@page "/chatbot"
+@using DotNetCoreMyTeApp.Data
+@inject ChatBotService chatBotService
+<PageTitle>Chat Bot</PageTitle>
+
+<h1>Chat Bot</h1>
+
+<div class="container mt-5">
+    <form>
+        <div class="mb-3">
+            <label for="exampleInputText" class="form-label">Ask your question</label>
+            <input type="text" @bind="UserRequest" class="form-control" id="userRequest" placeholder="How can I help you?" />
+        </div>
+    </form>
+</div>
+<div class="container mt-3">
+    <button type="submit" class="btn btn-primary" @onclick="GetResponseFromGemini">Submit</button> 
+</div>
+
+@code{
+    private ChatBotModel? chatBotModel;
+    private string? UserRequest {get; set;}
+    private async Task GetResponseFromGemini(){
+        if (chatBotModel == null)
+        {
+            chatBotModel = new ChatBotModel();
+        }
+        chatBotModel.Request = UserRequest;
+
+        chatBotModel = await chatBotService.GetChatBotResponse(chatBotModel);
+    }
+}

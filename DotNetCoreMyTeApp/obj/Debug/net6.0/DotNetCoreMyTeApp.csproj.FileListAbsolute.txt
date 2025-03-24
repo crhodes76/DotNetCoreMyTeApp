@@ -32,3 +32,4 @@ D:\git_repos\DotNetCoreMyTeApp\DotNetCoreMyTeApp\obj\Debug\net6.0\refint\DotNetC
 D:\git_repos\DotNetCoreMyTeApp\DotNetCoreMyTeApp\obj\Debug\net6.0\DotNetCoreMyTeApp.pdb
 D:\git_repos\DotNetCoreMyTeApp\DotNetCoreMyTeApp\obj\Debug\net6.0\DotNetCoreMyTeApp.genruntimeconfig.cache
 D:\git_repos\DotNetCoreMyTeApp\DotNetCoreMyTeApp\obj\Debug\net6.0\ref\DotNetCoreMyTeApp.dll
+D:\git_repos\DotNetCoreMyTeApp\DotNetCoreMyTeApp\obj\Debug\net6.0\DotNetCoreMyTeApp.sourcelink.json

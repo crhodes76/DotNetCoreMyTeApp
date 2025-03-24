@@ -2,11 +2,11 @@ namespace DotNetCoreMyTeApp.Data
 {
     public class MyTeService
     {
-        public Task<MyTeModel> GetMyTeDataByUserForInput(string aUser)
+        public Task<MyTimeTracking> GetMyTeDataByUserForInput(string aUser)
         {
-            MyTeModel response = new MyTeModel
+            MyTimeTracking response = new MyTimeTracking
             {
-                Date = DateTime.Now,
+                UserRecordedDate = DateTime.Now,
                 Name = "Charles",
                 Email = "Charles.Smith.Fake@gmail.com",
                 Team = "Development",

@@ -1,12 +1,12 @@
 namespace DotNetCoreMyTeApp.Data
 {
-    public class MyTeModel
+    public class MyTimeTracking
     {
         public string? Name { get; set; }
         public string? Email { get; set; }
         public string? Team { get; set; }
-        public DateTime? Date { get; set; }
-        public decimal? Hours { get; set; }
+        public DateTime? UserRecordedDate { get; set; }
+        public decimal? UserHours { get; set; }
 
         public List<string>? WorkTypes { get; set; }
 

@@ -11,11 +11,11 @@
     <form>
         <div class="mb-3">
             <label for="exampleInputText" class="form-label">Name</label>
-            <p>@userDefaultTeEntry?.Name</p>
+            <p>@userDefaultTimeTracking?.Name</p>
         </div>
         <div class="mb-3">
             <label for="exampleInputText" class="form-label">Email Address</label>
-            <p>@userDefaultTeEntry?.Email</p>
+            <p>@userDefaultTimeTracking?.Email</p>
         </div>
         <div class="mb-3">
             <label for="exampleInputText" class="form-label">Hours</label>
@@ -25,10 +25,10 @@
             <label>Work Types</label>
         </div>
         <div class="mb-3">
-            @if (userDefaultTeEntry?.WorkTypes != null && userDefaultTeEntry?.WorkTypes.Count > 0)
+            @if (userDefaultTimeTracking?.WorkTypes != null && userDefaultTimeTracking?.WorkTypes.Count > 0)
             {
                 <select class="form-select" @bind="UserWorkType">
-                    @foreach (var workType in userDefaultTeEntry.WorkTypes)
+                    @foreach (var workType in userDefaultTimeTracking.WorkTypes)
                     {
                         <option value="@workType">@workType</option>
                     }
@@ -39,10 +39,10 @@
             <label>Project Codes</label>
         </div>
         <div class="mb-3">
-            @if (userDefaultTeEntry?.ProjectCodes != null && userDefaultTeEntry?.ProjectCodes.Count > 0)
+            @if (userDefaultTimeTracking?.ProjectCodes != null && userDefaultTimeTracking?.ProjectCodes.Count > 0)
             {
                 <select class="form-select" @bind="UserProjectCode">
-                    @foreach (var projectCode in userDefaultTeEntry.ProjectCodes)
+                    @foreach (var projectCode in userDefaultTimeTracking.ProjectCodes)
                     {
                         <option value="@projectCode">@projectCode</option>
                     }
@@ -53,10 +53,10 @@
             <label>Description</label>
         </div>
         <div class="mb-3">
-            @if (userDefaultTeEntry?.Descriptions != null && userDefaultTeEntry?.Descriptions.Count > 0)
+            @if (userDefaultTimeTracking?.Descriptions != null && userDefaultTimeTracking?.Descriptions.Count > 0)
             {
                 <select class="form-select" @bind="UserDescription">
-                    @foreach (var description in userDefaultTeEntry.Descriptions)
+                    @foreach (var description in userDefaultTimeTracking.Descriptions)
                     {
                         <option value="@description">@description</option>
                     }
@@ -70,8 +70,8 @@
 </div>
 
 @code{
-    private MyTeModel? userDefaultTeEntry;
-    private MyTeModel? userEnteredData;
+    private MyTimeTracking? userDefaultTimeTracking;
+    private MyTimeTracking? userEnteredTimeTracking;
     private string? UserName {get; set;}
     private string? Email {get; set;}
     private string? UserWorkType {get; set;}
@@ -82,19 +82,19 @@
 
     protected override async Task OnInitializedAsync()
     {
-        userDefaultTeEntry = await myTeService.GetMyTeDataByUserForInput("aUser");
+        userDefaultTimeTracking = await myTeService.GetMyTeDataByUserForInput("aUser");
     }
 
     protected void SaveUserMyTimeData()
     {
-        MyTeModel userInput = new MyTeModel(){
+        MyTimeTracking userInput = new MyTimeTracking(){
             Name = UserName,
             Email = Email,
             UserWorkType = UserWorkType,
             UserDescription = UserDescription,//WorkType = new List<string>(){UserWorkType},
-            Hours = Hours,
+            UserHours = Hours,
             UserProjectCode = UserProjectCode,
-            Date = Date
+            UserRecordedDate = Date
         };
     }
 }

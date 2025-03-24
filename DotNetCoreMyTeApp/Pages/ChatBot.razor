@@ -16,6 +16,15 @@
 <div class="container mt-3">
     <button type="submit" class="btn btn-primary" @onclick="GetResponseFromGemini">Submit</button> 
 </div>
+<div>
+    @if (chatBotModel != null)
+    {
+        <div class="container mt-3">
+            <label>Response</label>
+            <p>@chatBotModel.Response</p>
+        </div>
+    }
+</div>
 
 @code{
     private ChatBotModel? chatBotModel;

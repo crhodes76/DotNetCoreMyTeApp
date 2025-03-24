@@ -9,7 +9,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddSingleton<ChatBotService>();
-
+builder.Services.AddSingleton<MyTeService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

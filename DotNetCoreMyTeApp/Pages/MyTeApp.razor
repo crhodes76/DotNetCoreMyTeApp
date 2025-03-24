@@ -8,5 +8,10 @@
 <h1>MY Time Tracking</h1>
 
 @code{
+    private MyTeModel? userDefaultTeEntry;
 
+    protected override async Task OnInitializedAsync()
+    {
+        userDefaultTeEntry = await myTeService.GetMyTeDataByUserForInput("aUser");
+    }
 }

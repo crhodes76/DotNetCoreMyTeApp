@@ -2,18 +2,17 @@ namespace DotNetCoreMyTeApp.Data
 {
     public class MyTeService
     {
-        public Task<List<MyTeModel>> GetMyTeDataByUser(MyTeModel aModel)
+        public Task<MyTeModel> GetMyTeDataByUserForInput(string aUser)
         {
-            List<MyTeModel> response = new List<MyTeModel>
+            MyTeModel response = new MyTeModel
             {
-                new MyTeModel
-                {
-                    Date = aModel.Date,
-                    Hours = aModel.Hours,
-                    WorkType = aModel.WorkType,
-                    ProjectCode = aModel.ProjectCode,
-                    Description = $"You said: '{aModel.Description}'"
-                }
+                Date = DateTime.Now,
+                Name = "Charles",
+                Email = "Charles.Smith.Fake@gmail.com",
+                Team = "Development",
+                WorkType = new List<string> { "Maintenance", "Capcity" },
+                ProjectCodes = new List<string> { "Project1", "Project2", "Project3", "Project4" },
+                Descriptions = new List<string> { "Coding", "Testing", "Deploying" }
             };
             return Task.FromResult(response);
         }

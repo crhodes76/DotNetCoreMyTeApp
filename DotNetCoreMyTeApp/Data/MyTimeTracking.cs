@@ -4,6 +4,9 @@ namespace DotNetCoreMyTeApp.Data
     {
         public string? Name { get; set; }
         public string? Email { get; set; }
+
+        public string? UserID { get; set; }
+
         public string? Team { get; set; }
         public DateTime? UserRecordedDate { get; set; }
         public decimal? UserHours { get; set; }

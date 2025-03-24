@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vsTRxu5D7YWQYOF4RM2Q27P6i4U8Y3PTBoxSAItFi8w=",
+  "Hash": "2YAQWHnDDCDzYgeVgUrEUuxB7BKbDRN9FX2RY9HZiac=",
   "Source": "DotNetCoreMyTeApp",
   "BasePath": "_content/DotNetCoreMyTeApp",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\myTeApp.css",
+      "SourceId": "DotNetCoreMyTeApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
+      "BasePath": "_content/DotNetCoreMyTeApp",
+      "RelativePath": "css/myTeApp#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gwiieyflz3",
+      "Integrity": "MPaJ1fTlXA1mbAOWNb/yMuXDS0JMmIBSc9DPa5UE+pk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\myTeApp.css"
     },
     {
       "Identity": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
@@ -494,6 +515,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/myTeApp.css",
+      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\myTeApp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MPaJ1fTlXA1mbAOWNb/yMuXDS0JMmIBSc9DPa5UE+pk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 19:35:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MPaJ1fTlXA1mbAOWNb/yMuXDS0JMmIBSc9DPa5UE+pk="
+        }
+      ]
+    },
+    {
+      "Route": "css/myTeApp.gwiieyflz3.css",
+      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\myTeApp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MPaJ1fTlXA1mbAOWNb/yMuXDS0JMmIBSc9DPa5UE+pk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 19:35:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gwiieyflz3"
+        },
+        {
+          "Name": "label",
+          "Value": "css/myTeApp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MPaJ1fTlXA1mbAOWNb/yMuXDS0JMmIBSc9DPa5UE+pk="
         }
       ]
     },

@@ -249,6 +249,88 @@
       ]
     },
     {
+      "Route": "css/myTeApp.css",
+      "AssetFile": "css/myTeApp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MPaJ1fTlXA1mbAOWNb/yMuXDS0JMmIBSc9DPa5UE+pk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 19:35:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MPaJ1fTlXA1mbAOWNb/yMuXDS0JMmIBSc9DPa5UE+pk="
+        }
+      ]
+    },
+    {
+      "Route": "css/myTeApp.gwiieyflz3.css",
+      "AssetFile": "css/myTeApp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MPaJ1fTlXA1mbAOWNb/yMuXDS0JMmIBSc9DPa5UE+pk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 19:35:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gwiieyflz3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MPaJ1fTlXA1mbAOWNb/yMuXDS0JMmIBSc9DPa5UE+pk="
+        },
+        {
+          "Name": "label",
+          "Value": "css/myTeApp.css"
+        }
+      ]
+    },
+    {
       "Route": "css/open-iconic/FONT-LICENSE",
       "AssetFile": "css/open-iconic/FONT-LICENSE",
       "Selectors": [],

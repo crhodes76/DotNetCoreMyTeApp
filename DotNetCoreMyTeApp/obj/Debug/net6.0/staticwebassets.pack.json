@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\myTeApp.css",
+      "PackagePath": "staticwebassets\\css\\myTeApp.css"
+    },
+    {
       "Id": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },

@@ -2,14 +2,19 @@ namespace DotNetCoreMyTeApp.Data
 {
     public class MyTeService
     {
-        public Task<MyTeModel> GetMyTeModel(MyTeModel aModel)
+        public Task<List<MyTeModel>> GetMyTeDataByUser(MyTeModel aModel)
         {
-            var response = new MyTeModel
+            List<MyTeModel> response = new List<MyTeModel>
             {
-                Name = aModel.Name,
-                Description = $"You said: '{aModel.Description}'"
+                new MyTeModel
+                {
+                    Date = aModel.Date,
+                    Hours = aModel.Hours,
+                    WorkType = aModel.WorkType,
+                    ProjectCode = aModel.ProjectCode,
+                    Description = $"You said: '{aModel.Description}'"
+                }
             };
-
             return Task.FromResult(response);
         }
     }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotNetCoreMyTeApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0a51d4c678e27bd9f85bccacebda8381cda25da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3e6f542cffbbc82c75cf3eb771e2b7f338ca75b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotNetCoreMyTeApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotNetCoreMyTeApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

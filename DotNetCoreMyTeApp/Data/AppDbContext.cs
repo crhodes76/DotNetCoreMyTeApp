@@ -8,7 +8,7 @@ namespace DotNetCoreMyTeApp.Data
         {
         }
 
-        public DbSet<MyTimeTracking> MyTimeTrackings { get; set; }
+        public DbSet<MyTimeTracking> MyTimeTrackings { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

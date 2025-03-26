@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2YAQWHnDDCDzYgeVgUrEUuxB7BKbDRN9FX2RY9HZiac=",
+  "Hash": "khRJz6rlZi1A/xiDeHuipMNMQXT4pp5MIJ0xygH2KJQ=",
   "Source": "DotNetCoreMyTeApp",
   "BasePath": "_content/DotNetCoreMyTeApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DotNetCoreMyTeApp\\wwwroot",
       "Source": "DotNetCoreMyTeApp",
-      "ContentRoot": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
+      "ContentRoot": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
       "BasePath": "_content/DotNetCoreMyTeApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DotNetCoreMyTeApp.styles.css",
+      "Identity": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DotNetCoreMyTeApp.styles.css",
       "SourceId": "DotNetCoreMyTeApp",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/DotNetCoreMyTeApp",
       "RelativePath": "DotNetCoreMyTeApp#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "ZYR5iIk328HHyeTbUACk4xnXqn+M7OAamWPi2I+4IRY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DotNetCoreMyTeApp.styles.css"
+      "OriginalItemSpec": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DotNetCoreMyTeApp.styles.css"
     },
     {
-      "Identity": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DotNetCoreMyTeApp.bundle.scp.css",
+      "Identity": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DotNetCoreMyTeApp.bundle.scp.css",
       "SourceId": "DotNetCoreMyTeApp",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/DotNetCoreMyTeApp",
       "RelativePath": "DotNetCoreMyTeApp#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "ZYR5iIk328HHyeTbUACk4xnXqn+M7OAamWPi2I+4IRY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DotNetCoreMyTeApp.bundle.scp.css"
+      "OriginalItemSpec": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DotNetCoreMyTeApp.bundle.scp.css"
     },
     {
-      "Identity": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "DotNetCoreMyTeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
+      "ContentRoot": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
       "BasePath": "_content/DotNetCoreMyTeApp",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "DotNetCoreMyTeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
+      "ContentRoot": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
       "BasePath": "_content/DotNetCoreMyTeApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\myTeApp.css",
+      "Identity": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\myTeApp.css",
       "SourceId": "DotNetCoreMyTeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
+      "ContentRoot": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
       "BasePath": "_content/DotNetCoreMyTeApp",
       "RelativePath": "css/myTeApp#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\myTeApp.css"
     },
     {
-      "Identity": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "DotNetCoreMyTeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
+      "ContentRoot": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
       "BasePath": "_content/DotNetCoreMyTeApp",
       "RelativePath": "css/open-iconic/FONT-LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "DotNetCoreMyTeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
+      "ContentRoot": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
       "BasePath": "_content/DotNetCoreMyTeApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "DotNetCoreMyTeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
+      "ContentRoot": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
       "BasePath": "_content/DotNetCoreMyTeApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "DotNetCoreMyTeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
+      "ContentRoot": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
       "BasePath": "_content/DotNetCoreMyTeApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.otf",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "DotNetCoreMyTeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
+      "ContentRoot": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
       "BasePath": "_content/DotNetCoreMyTeApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "DotNetCoreMyTeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
+      "ContentRoot": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
       "BasePath": "_content/DotNetCoreMyTeApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "DotNetCoreMyTeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
+      "ContentRoot": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
       "BasePath": "_content/DotNetCoreMyTeApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "DotNetCoreMyTeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
+      "ContentRoot": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
       "BasePath": "_content/DotNetCoreMyTeApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "DotNetCoreMyTeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
+      "ContentRoot": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
       "BasePath": "_content/DotNetCoreMyTeApp",
       "RelativePath": "css/open-iconic/README#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\site.css",
+      "Identity": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\site.css",
       "SourceId": "DotNetCoreMyTeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
+      "ContentRoot": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
       "BasePath": "_content/DotNetCoreMyTeApp",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\favicon.ico",
+      "Identity": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\favicon.ico",
       "SourceId": "DotNetCoreMyTeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
+      "ContentRoot": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\",
       "BasePath": "_content/DotNetCoreMyTeApp",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -356,7 +356,7 @@
   "Endpoints": [
     {
       "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -401,7 +401,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -438,7 +438,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -483,7 +483,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -520,7 +520,7 @@
     },
     {
       "Route": "css/myTeApp.css",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\myTeApp.css",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\myTeApp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -557,7 +557,7 @@
     },
     {
       "Route": "css/myTeApp.gwiieyflz3.css",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\myTeApp.css",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\myTeApp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -602,7 +602,7 @@
     },
     {
       "Route": "css/open-iconic/FONT-LICENSE",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -639,7 +639,7 @@
     },
     {
       "Route": "css/open-iconic/FONT-LICENSE.48tmkg660f",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -684,7 +684,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -729,7 +729,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -766,7 +766,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.0uw8dim9nl.eot",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -811,7 +811,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.eot",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -848,7 +848,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.h4d0pazwgy.woff",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -893,7 +893,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.ll5grcv8wv.ttf",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -938,7 +938,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.otf",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -975,7 +975,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1020,7 +1020,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.svg",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1057,7 +1057,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.ttf",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1094,7 +1094,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1139,7 +1139,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.woff",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1176,7 +1176,7 @@
     },
     {
       "Route": "css/open-iconic/ICON-LICENSE",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "Route": "css/open-iconic/ICON-LICENSE.4dwjve0o0b",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1258,7 +1258,7 @@
     },
     {
       "Route": "css/open-iconic/README.md",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\README.md",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\README.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1295,7 +1295,7 @@
     },
     {
       "Route": "css/open-iconic/README.psxpu4y82n.md",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\README.md",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\open-iconic\\README.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1340,7 +1340,7 @@
     },
     {
       "Route": "css/site.1fpfb6x0uo.css",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\site.css",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1385,7 +1385,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\site.css",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1422,7 +1422,7 @@
     },
     {
       "Route": "DotNetCoreMyTeApp.bundle.scp.css",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DotNetCoreMyTeApp.bundle.scp.css",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DotNetCoreMyTeApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1459,7 +1459,7 @@
     },
     {
       "Route": "DotNetCoreMyTeApp.styles.css",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DotNetCoreMyTeApp.styles.css",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DotNetCoreMyTeApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1496,7 +1496,7 @@
     },
     {
       "Route": "DotNetCoreMyTeApp.vnc2nmkc1l.bundle.scp.css",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DotNetCoreMyTeApp.bundle.scp.css",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DotNetCoreMyTeApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1541,7 +1541,7 @@
     },
     {
       "Route": "DotNetCoreMyTeApp.vnc2nmkc1l.styles.css",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DotNetCoreMyTeApp.styles.css",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DotNetCoreMyTeApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1586,7 +1586,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\favicon.ico",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1631,7 +1631,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\favicon.ico",
+      "AssetFile": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {

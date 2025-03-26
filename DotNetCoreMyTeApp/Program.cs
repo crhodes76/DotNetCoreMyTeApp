@@ -10,7 +10,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<ChatBotService>();
 builder.Services.AddSingleton<MyTimeTrackingService>();
-builder.Services.AddDbContext<AppDbContext>(options =>
+builder.Services.AddDbContext<DotNetCoreMyTeApp.Data.AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 var app = builder.Build();
 

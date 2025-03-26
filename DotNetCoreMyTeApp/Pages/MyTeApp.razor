@@ -2,7 +2,8 @@
 
 @using DotNetCoreMyTeApp.Data
 @inject MyTimeTrackingService myTimeTrackingService
-
+@inject AppDbContext DbContext
+@inject NavigationManager NavigationManager
 <PageTitle>My Time Tracking</PageTitle>
 
 <h1>MY Time Tracking</h1>
@@ -62,6 +63,8 @@
                     }
                 </select>
             }
+            <p>You selected: @UserDescription</p>
+
         </div>
     </form>
 </div>
@@ -71,7 +74,7 @@
 
 @code{
     private MyTimeTracking? userDefaultTimeTracking;
-    private MyTimeTracking? userEnteredTimeTracking;
+    //private MyTimeTracking? userEnteredTimeTracking;
     private string? UserName {get; set;}
     private string? Email {get; set;}
     private string? UserWorkType {get; set;}
@@ -85,16 +88,25 @@
         userDefaultTimeTracking = await myTimeTrackingService.GetMyTeDataByUserForInput("aUser");
     }
 
-    protected void SaveUserMyTimeData()
+    public async Task SaveUserMyTimeData()
     {
         MyTimeTracking userMyTimeTrackingInput = new MyTimeTracking(){
-            Name = UserName,
-            Email = Email,
+            Name = userDefaultTimeTracking?.Name,
+            Email = userDefaultTimeTracking?.Email,
+            Team = userDefaultTimeTracking?.Team,
+            UserID = userDefaultTimeTracking?.UserID,
             UserWorkType = UserWorkType,
             UserDescription = UserDescription,
             UserHours = Hours,
             UserProjectCode = UserProjectCode,
-            UserRecordedDate = Date
+            UserRecordedDate = DateTime.Now
         };
+        DbContext.MyTimeTrackings.Add(userMyTimeTrackingInput);
+        await DbContext.SaveChangesAsync();
+        // Re-fetch or refresh data
+        //await OnInitializedAsync();
+        NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
+
     }
+
 }

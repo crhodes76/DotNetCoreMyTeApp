@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5sx7ixw8H7Q=",
+  "dgSpecHash": "BgxNy+BPjKA=",
   "success": true,
-  "projectFilePath": "d:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp.csproj",
+  "projectFilePath": "D:\\git_repos\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp\\DotNetCoreMyTeApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\charl\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\charl\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
